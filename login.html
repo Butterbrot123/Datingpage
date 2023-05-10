@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Dating Website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="logo-container">
+                    <img class="nav__logo" src="assets/img/logo.png" alt="logo"></a> 
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#member" class="nav__link">Member</a></li>
+                        <li class="nav__item"><a href="#Features" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item__btn"><a href="#" class="button1">Login</a></li>
+                        <li class ="nav__item__btn"><a href="#" class="button2">Register</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+<body>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1 class="h1-log-in">Create Account</h1>
+                    <div class="social-container">      
+                    </div>
+                    <input type="firstname" placeholder="Firstname" />
+                    <input type="lastname" placeholder="Lastname" />
+                    <input type="age" placeholder="Age" />
+                    <input type="gender" placeholder="Gender" />
+                    <input type="height" placeholder="Height" />
+                    <input type="username" placeholder="Username" />
+                    <input type="password" placeholder="Password" />
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1 class="h1-log-in">Log in</h1>
+                    <div class="social-container">
+                    </div>
+                    <input type="Username" placeholder="Username" />
+                    <input type="password" placeholder="Password" />
+                    <button>Log In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1 class="h1-log-in">Welcome Back!</h1>
+                        <p>To keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1 class="h1-log-in">Hello, Friend!</h1>
+                        <p>Enter your personal details and start journey with us</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+</body>
+
+
+        
+        <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/log-in.js"></script>
+    </body>
+</html>
